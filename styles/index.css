@@ -5,6 +5,15 @@
       background-color: rgb(0, 0, 0);
   }
   
+  span.name{
+    float: left;
+    padding: 20px;
+    color: #fff;
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-left: 40px;
+  }
   
   .scroll_button{
       position: fixed;
@@ -99,15 +108,7 @@
     div.btn-container{
       width: 100%;
     }  
-    span.name{
-      float: left;
-      padding: 20px;
-      color: #fff;
-      padding-top: 15px;
-      font-size: 20px;
-      font-weight: bolder;
-      padding-left: 40px;
-    }
+    
     li{
       display: inline-block;
       text-align: right;
@@ -117,7 +118,7 @@
   }
    
     ul.nav-list{
-      margin-right: 120px;
+      float: right;
     }
     ul li {
       font-weight: lighter;
