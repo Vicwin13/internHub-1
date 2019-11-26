@@ -151,16 +151,12 @@
    button.btn-hire-me{
      background-color: #ffbd39;
      color:#fff;
-     padding: 10px;
      border-radius: 20px;
      border:0;
-     padding-left: auto;
-     padding-right: auto;
-     padding-top:10px;
-     padding-bottom:10px;
+    padding:5px 5px;
       display: inline;
     text-transform: uppercase;
-      font-size: 10px; 
+      font-size: 7px; 
       outline: hidden;
          
    }
@@ -168,16 +164,13 @@
    button.btn-my-works{
     outline: hidden;   
      
-    font-size: 10px;    
+    font-size: 7px;    
     background-color: #ffbd39;
     color:#fff;
     padding: 10px;
     border-radius: 20px;
     border:0;
-    padding-left: auto;
-    padding-right: auto;
-    padding-top:10px;
-    padding-bottom:10px;
+    padding:5px 5px;
     display: inline;
     background: transparent;
     border:2px solid grey;
@@ -193,7 +186,7 @@
      padding-right: 10px;
    }
    h1{
-     font-size: 50px;
+     font-size: 40px;
      margin: 0;
      padding: 0;
    }
