@@ -5,6 +5,15 @@
       background-color: rgb(0, 0, 0);
   }
   
+  span.name{
+    float: left;
+    padding: 20px;
+    color: #fff;
+    padding-top: 15px;
+    font-size: 20px;
+    font-weight: bolder;
+    padding-left: 40px;
+  }
   
   .scroll_button{
       position: fixed;
@@ -92,32 +101,23 @@
       display: inline;
       clear: both;
     }
-    ul{
-      display: inline;
-      float: right!important;
-    }
     div.btn-container{
       width: 100%;
+      margin-top: 20px;
     }  
-    span.name{
-      float: left;
-      padding: 20px;
-      color: #fff;
-      padding-top: 15px;
-      font-size: 20px;
-      font-weight: bolder;
-      padding-left: 40px;
-    }
+    
     li{
       display: inline-block;
       text-align: right;
     }
   div.navigation{
     opacity: 1;
+    position: relative;
   }
    
     ul.nav-list{
-      margin-right: 120px;
+      float: right;
+      margin-right: 30px;
     }
     ul li {
       font-weight: lighter;
@@ -140,6 +140,11 @@
      font-size: 14px;
      
    }
+
+   h3.slide-content-hello {
+     color: #ffbd39;
+     letter-spacing: 10px;
+   }
    div.slide-content{
     position: absolute;
     top:240px;
@@ -151,16 +156,12 @@
    button.btn-hire-me{
      background-color: #ffbd39;
      color:#fff;
-     padding: 10px;
-     border-radius: 20px;
+     border-radius: 15px;
      border:0;
-     padding-left: auto;
-     padding-right: auto;
-     padding-top:10px;
-     padding-bottom:10px;
+    padding:15px 15px;
       display: inline;
     text-transform: uppercase;
-      font-size: 10px; 
+      font-size: 14px; 
       outline: hidden;
          
    }
@@ -168,16 +169,13 @@
    button.btn-my-works{
     outline: hidden;   
      
-    font-size: 10px;    
+    font-size: 14px;    
     background-color: #ffbd39;
     color:#fff;
-    padding: 10px;
-    border-radius: 20px;
+    padding: 5px;
+    border-radius: 15px;
     border:0;
-    padding-left: auto;
-    padding-right: auto;
-    padding-top:10px;
-    padding-bottom:10px;
+    padding:15px 15px;
     display: inline;
     background: transparent;
     border:2px solid grey;
@@ -193,20 +191,35 @@
      padding-right: 10px;
    }
    h1{
-     font-size: 50px;
+     font-size: 40px;
      margin: 0;
      padding: 0;
    }
     img.slide1{
-      z-index: -1;
-      position: absolute;
-      right: 150px;
+      width: 100%;
+      /* z-index: -1; */
+      /* position: absolute; */
+      /* right: 150px; */
     }
-    div.slider{
-      z-index: -3;
-      position: relative;
-      top:-70px;
+    div.slider {
+      width:100%;
     }
+    div.slider_image {
+       margin-top:-150px;
+      width: 45%;
+      float:left;
+      z-index:-3;
+    }
+    
+    div.content {
+      float: left;
+      width: 45%;
+      max-width:55%;
+      padding-left: 30px;
+      height: 100%;
+      padding-top: 190px;
+    }
+    
     ul li:hover{
       border-bottom:2px solid #ffbd39;
       cursor: pointer;
@@ -226,5 +239,59 @@
 
     
     
-    
+    div.preloader {
+      position: fixed;
+      height:100vh;
+      z-index:999999;
+      width: 100%;
+      top:0;
+      left:0;
+      background-color: rgba(0,0,0,0.8);
+
+    }
+
+    div.loading_icon {
+      position: absolute;
+      height: 100px;
+      width: 100px;
+      top:45%;
+      left:45%;
+    }
+
+    .lds-ripple {
+      display: inline-block;
+      width: 80px;
+      height: 80px;
+      position: absolute;
+      height: 100px;
+      width: 100px;
+      top:45%;
+      left:45%;
+    }
+    .lds-ripple div {
+      position: absolute;
+      border: 4px solid #ffbd39;
+      /* opacity: 1; */
+      border-radius: 50%;
+      animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+    }
+    .lds-ripple div:nth-child(2) {
+      animation-delay: -0.5s;
+    }
+    @keyframes lds-ripple {
+      0% {
+        top: 36px;
+        left: 36px;
+        width: 0;
+        height: 0;
+        opacity: 1;
+      }
+      100% {
+        top: 0px;
+        left: 0px;
+        width: 72px;
+        height: 72px;
+        opacity: 0;
+      }
+    }
     
