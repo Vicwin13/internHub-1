@@ -44,9 +44,9 @@
       color: #fff;
       line-height: 1;
       direction: rtf;
-      word-spacing: 30px;
-      letter-spacing: 30px;
-      display: none;
+      word-spacing: 1px;
+      /* letter-spacing: 30px; */
+    
     }
     
     
@@ -203,8 +203,103 @@
       border-bottom:2px solid #ffbd39;
       cursor: pointer;
     }
+    body{
+    background-color: black
+}
+h1.resume1{
+    color: white;
+    text-align: center;
+    text-shadow: 10px 30px 2px rgb(49, 49, 49);font-size: 60px
+}
+p.text1{
+    color: gray;
+    text-align: left;
+    margin-left: 10px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif
+}
+.container1{
+    background-color: rgb(24, 24, 24);
+width: 560px;
+height: 200px;
+ float:left;
+ margin-left: 100px;
+ margin-top: 20px;
+ /* text-align: center */
+}
+.container2{
+    background-color:  rgb(24, 24, 24);
+    /* text-align: center; */
+    margin-left: 700px;
+    width: 560px;
+    height: 200px
+}
+.container3{
+    background-color: rgb(24, 24, 24);
+   float: left;
+   margin-left:100px;
+   margin-top: 30px;
+   width: 560px;
+   height: 200px;
+   /* text-align: center */
+}
+.container4{
+     background-color:  rgb(24, 24, 24);
+    /* text-align: center; */
+    margin-left: 700px;
+    width: 560px;
+    height: 200px;
+    margin-top: 30px
+}
+.container5{
+    background-color: rgb(24, 24, 24);
+   float: left;
+   margin-left:100px; 
+   margin-top: 30px;
+   width: 560px;
+   height: 200px;
+   /* text-align: center */
+}
+.container6{
+    background-color:  rgb(24, 24, 24);
+    /* text-align: center; */
+    margin-left: 700px;
+    width: 560px;
+    height: 200px;
+    margin-top: 30px
+}
+.date1{
+    color: rgb(219, 153, 10);
+    font-size: 25px;
+    font-family: cursive;
+    margin-left: 10px
+}
+.about{
+    text-align: center;
+    color: gray
+}
+.degree{
+    margin-left: 10px;
+    font-size: 25px;
+    color: white
+}
+button.cv{
+    color:  black;
     
-    
+    border:  rgb(219, 153, 10);
+    border-radius: 50px;
+    background-color:  rgb(219, 153, 10);
+    width: 150px;
+    height: 60px;
+    margin-left: 600px;
+    margin-top: 80px
+
+}
+    /* #shadow{
+      text-shadow: 5px 4px 4px gray
+    }
+     */
     div.preloader {
       position: fixed;
       height:100vh;
