@@ -44,9 +44,6 @@
       color: #fff;
       line-height: 1;
       direction: rtf;
-      word-spacing: 30px;
-      letter-spacing: 30px;
-      display: none;
     }
     h1{
       /* background-color: peru; */
@@ -294,4 +291,39 @@
         opacity: 0;
       }
     }
+    .Projects{
+      color: white;
+      margin-right:350px;
+      font-size: 50px;
+      font-weight: bolder;
+      text-align: center;
+  }
+  
+  .intro{
+      color: white;
+      text-align: center;
+  }
+  .webev0{
+      margin-left: 100px;
+  }
+  .webdev1{
+      margin-left: 100px;
+  }
+  .firstImages{
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .secondImages{
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 15px;
+  }
+  .thirdImages{
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 15px;
+  }
+  .numerone{
+    float: left;
+  }
     
