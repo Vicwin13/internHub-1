@@ -35,9 +35,9 @@
       color: #fff;
       line-height: 1;
       direction: rtf;
-      word-spacing: 30px;
-      letter-spacing: 30px;
-      display: none;
+      word-spacing: 1px;
+      /* letter-spacing: 30px; */
+    
     }
     h1{
       /* background-color: peru; */
@@ -211,6 +211,94 @@
       border-bottom:2px solid #ffbd39;
       cursor: pointer;
     }
+    body{
+    background-color: black
+}
+h1{
+    color: white;
+    text-align: center
+}
+p.text1{
+    color: white;
+    text-align: left;
+    margin-left: 10px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif
+}
+.container1{
+    background-color: rgb(24, 24, 24);
+width: 560px;
+height: 200px;
+ float:left;
+ margin-left: 100px;
+ margin-top: 20px;
+ /* text-align: center */
+}
+.container2{
+    background-color:  rgb(24, 24, 24);
+    /* text-align: center; */
+    margin-left: 700px;
+    width: 560px;
+    height: 200px
+}
+.container3{
+    background-color: rgb(24, 24, 24);
+   float: left;
+   margin-left:-560px;
+   margin-top: 30px;
+   width: 560px;
+   height: 200px;
+   /* text-align: center */
+}
+.container4{
+     background-color:  rgb(24, 24, 24);
+    /* text-align: center; */
+    margin-left: 700px;
+    width: 560px;
+    height: 200px;
+    margin-top: 30px
+}
+.container5{
+    background-color: rgb(24, 24, 24);
+   float: left;
+   margin-left:100px; 
+   margin-top: 30px;
+   width: 560px;
+   height: 200px;
+   /* text-align: center */
+}
+.container6{
+    background-color:  rgb(24, 24, 24);
+    /* text-align: center; */
+    margin-left: 700px;
+    width: 560px;
+    height: 200px;
+    margin-top: 30px
+}
+.date1{
+    color: rgb(219, 153, 10);
+    font-size: 25px;
+    font-family: cursive;
+    margin-left: 10px
+}
+.about{
+    text-align: center
+}
+.degree{
+    margin-left: 10px;
+    font-size: 25px;
+    color: white
+}
+button{
+    color:  black;
+    
+    border:  rgb(219, 153, 10);
+    border-radius: 10px;
+    background-color:  rgb(219, 153, 10);
+    width: 150px;
+    height: 60px
+}
     
     
     
