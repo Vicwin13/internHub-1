@@ -159,7 +159,7 @@
    button.btn-hire-me{
      background-color: #ffbd39;
      color:#fff;
-     border-radius: 15px;
+     border-radius: 25px;
      border:0;
     padding:15px 15px;
       display: inline;
@@ -167,6 +167,11 @@
       font-size: 14px; 
       outline: hidden;
          
+   }
+   .btn-hire-me:hover{
+     color: #ffbd39;
+     background-color: #000;
+border:2px solid grey;
    }
    
    button.btn-my-works{
@@ -176,13 +181,14 @@
     background-color: #ffbd39;
     color:#fff;
     padding: 5px;
-    border-radius: 15px;
+    border-radius: 25px;
     border:0;
     padding:15px 15px;
     display: inline;
     background: transparent;
     border:2px solid grey;
     text-transform: uppercase;
+    margin-left: 10px;
     
   }
    h1.slide-content-about{
