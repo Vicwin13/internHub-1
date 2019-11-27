@@ -101,12 +101,9 @@
       display: inline;
       clear: both;
     }
-    ul{
-      display: inline;
-      float: right!important;
-    }
     div.btn-container{
       width: 100%;
+      margin-top: 20px;
     }  
     
     li{
@@ -115,10 +112,12 @@
     }
   div.navigation{
     opacity: 1;
+    position: relative;
   }
    
     ul.nav-list{
       float: right;
+      margin-right: 30px;
     }
     ul li {
       font-weight: lighter;
@@ -141,6 +140,11 @@
      font-size: 14px;
      
    }
+
+   h3.slide-content-hello {
+     color: #ffbd39;
+     letter-spacing: 10px;
+   }
    div.slide-content{
     position: absolute;
     top:240px;
@@ -152,12 +156,12 @@
    button.btn-hire-me{
      background-color: #ffbd39;
      color:#fff;
-     border-radius: 20px;
+     border-radius: 15px;
      border:0;
-    padding:5px 5px;
+    padding:15px 15px;
       display: inline;
     text-transform: uppercase;
-      font-size: 7px; 
+      font-size: 14px; 
       outline: hidden;
          
    }
@@ -165,13 +169,13 @@
    button.btn-my-works{
     outline: hidden;   
      
-    font-size: 7px;    
+    font-size: 14px;    
     background-color: #ffbd39;
     color:#fff;
-    padding: 10px;
-    border-radius: 20px;
+    padding: 5px;
+    border-radius: 15px;
     border:0;
-    padding:5px 5px;
+    padding:15px 15px;
     display: inline;
     background: transparent;
     border:2px solid grey;
@@ -192,20 +196,33 @@
      padding: 0;
    }
     img.slide1{
-      z-index: -1;
-      position: absolute;
-      right: 150px;
+      width: 100%;
+      /* z-index: -1; */
+      /* position: absolute; */
+      /* right: 150px; */
     }
-    div.slider{
-      z-index: -3;
-      position: relative;
-      top:-70px;
+    div.slider {
+      width:100%;
     }
+    div.slider_image {
+       margin-top:-150px;
+      width: 45%;
+      float:left;
+      z-index:-3;
+    }
+    
+    div.content {
+      float: left;
+      width: 45%;
+      max-width:55%;
+      padding-left: 30px;
+      height: 100%;
+      padding-top: 190px;
+    }
+    
     ul li:hover{
       border-bottom:2px solid #ffbd39;
       cursor: pointer;
     }
-    
-    
     
     
