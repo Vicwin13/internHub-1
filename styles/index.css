@@ -44,32 +44,11 @@
       color: #fff;
       line-height: 1;
       direction: rtf;
-      word-spacing: 30px;
-      letter-spacing: 30px;
-      display: none;
-    }
-    h1{
-      /* background-color: peru; */
-      /* border: 2px groove   white;
-       */
-       /* border-style: dotted;
-       border-color: #fff;
-       border-width: 2px;
-       border-left-style: solid;
-       border-right-style: ridge;
-       border-radius: 20px; 
-       text-align: left;
-       color:#fff;
-       font-style: italic;
-       font-weight:thin; */
+      word-spacing: 1px;
+      /* letter-spacing: 30px; */
     
-       /* text-shadow: 5px 10px red; */
-       /* margin: auto; */
-       /* width: 400px;
-       height: 90px; */
-       /* padding: 30px;
-       padding-bottom: 70px; */
     }
+    
     
     i {
       color: #fff;
@@ -233,8 +212,103 @@ border:2px solid grey;
       border-bottom:2px solid #ffbd39;
       cursor: pointer;
     }
+    body{
+    background-color: black
+}
+h1.resume1{
+    color: white;
+    text-align: center;
+    text-shadow: 10px 30px 2px rgb(49, 49, 49);font-size: 60px
+}
+p.text1{
+    color: gray;
+    text-align: left;
+    margin-left: 10px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif
+}
+.container1{
+    background-color: rgb(24, 24, 24);
+width: 560px;
+height: 200px;
+ float:left;
+ margin-left: 100px;
+ margin-top: 20px;
+ /* text-align: center */
+}
+.container2{
+    background-color:  rgb(24, 24, 24);
+    /* text-align: center; */
+    margin-left: 700px;
+    width: 560px;
+    height: 200px
+}
+.container3{
+    background-color: rgb(24, 24, 24);
+   float: left;
+   margin-left:100px;
+   margin-top: 30px;
+   width: 560px;
+   height: 200px;
+   /* text-align: center */
+}
+.container4{
+     background-color:  rgb(24, 24, 24);
+    /* text-align: center; */
+    margin-left: 700px;
+    width: 560px;
+    height: 200px;
+    margin-top: 30px
+}
+.container5{
+    background-color: rgb(24, 24, 24);
+   float: left;
+   margin-left:100px; 
+   margin-top: 30px;
+   width: 560px;
+   height: 200px;
+   /* text-align: center */
+}
+.container6{
+    background-color:  rgb(24, 24, 24);
+    /* text-align: center; */
+    margin-left: 700px;
+    width: 560px;
+    height: 200px;
+    margin-top: 30px
+}
+.date1{
+    color: rgb(219, 153, 10);
+    font-size: 25px;
+    font-family: cursive;
+    margin-left: 10px
+}
+.about{
+    text-align: center;
+    color: gray
+}
+.degree{
+    margin-left: 10px;
+    font-size: 25px;
+    color: white
+}
+button.cv{
+    color:  black;
     
-    
+    border:  rgb(219, 153, 10);
+    border-radius: 50px;
+    background-color:  rgb(219, 153, 10);
+    width: 150px;
+    height: 60px;
+    margin-left: 600px;
+    margin-top: 80px
+
+}
+    /* #shadow{
+      text-shadow: 5px 4px 4px gray
+    }
+     */
     div.preloader {
       position: fixed;
       height:100vh;
@@ -290,4 +364,76 @@ border:2px solid grey;
         opacity: 1;
       }
     }
+    .container2{
+    margin-top: 200px;
+    padding-bottom: 100px;
+     
+}
+.img2{
+    z-index: -1;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: -10px;
+    margin-left: 0px;  
+   
+
+}
+.about{
+    position: absolute;
+    right: 00px;
+    background-color: black;
+    margin-top: -500px;
+}
+#abouthead {
+    text-align: left;
+    color: white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 150px;  
+    text-shadow: 10px 10px rgb(15, 1, 1);  
+}
+.quote{
+    text-align: left;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 150px;
+    color: rgb(155, 151, 151);
+}
+.con{
+    margin-right: 250px;
+}
+.con h4{
+    padding: 0px;
+    font-size: 15px;
+    color: rgb(155, 151, 151);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: left;
+    padding-left: 0px;
+    
+    
+}
+.con h4 b{
+    padding-right: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.button2 h4{
+    text-align: center;
+    color: black;
+    font-size: 10px;
+    width: 150px;
+     padding-top: 20px;
+    padding-bottom: 20px; 
+    border:0.5px;
+    background-color: orange;
+    transition: 0.35s;
+    margin-top:70px;
+    border-radius: 50px;  
+    text-decoration: none;
+    /* display: inline-block; */
+    margin-left:0px;
+
+}
     
