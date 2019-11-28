@@ -644,10 +644,10 @@ div.freelancing{
 h1.freelancing{
     font-size: 50px;
     background-color: transparent;
-    text-shadow: 2px 2px 1px #ffbd39;
+    text-shadow: 2px 2px 1px rgb(219, 153, 10);
 }
 span.available{
-    color: #ffbd39;
+    color: rgb(219, 153, 10);
     background-color: transparent;
     font-weight: bold;
     text-shadow: 2px 2px 1px white;
@@ -657,8 +657,8 @@ p.txt{
     font-size: 18px;
     text-shadow: 2px 2px 1px black;
 }
-input.hired{
-    padding: 20px;
+button.hireme{
+    /* padding: 20px;
    outline: none;
     border-radius: 60px;
     background-color: #ffbd39;
@@ -668,7 +668,16 @@ input.hired{
     bottom: 37em;
     left: 45em;
     width: 180px;
-    outline: hidden;
+    outline: hidden; */
+    color:  black;
+    border:  rgb(219, 153, 10);
+    border-radius: 50px;
+    background-color:  rgb(219, 153, 10);
+    width: 150px;
+    height: 50px;
+    bottom:0;
+
+
 }
 body{
     background-color: black
