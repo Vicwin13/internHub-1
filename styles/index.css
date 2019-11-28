@@ -243,7 +243,7 @@ p.text1{
     margin-left: 10px;
     letter-spacing: 1px;
     font-size: 15px;
-    font-family: 'Times New Roman', Times, serif
+    /* font-family: 'Times New Roman', Times, serif; */
 }
 .about_container{
     /* text-align: center; */
@@ -255,22 +255,26 @@ p.text1{
   width:100%;
   position: relative;
   height: 400px;
+  
 }
 
 div.resume_row1 div.container1 {
   position: absolute;
   left:0;
-  margin-left:50px;
+  margin-left:110px;
   margin-top: 30px;
   height: 200px;
+  background-color: rgb(15, 15, 15);
+  
 }
 
 div.resume_row1 div.container2 {
   position: absolute;
   right:0;
-  margin-left:50px;
+  margin-right:110px;
   margin-top: 30px;
   height: 200px;
+  background-color: rgb(15, 15, 15)
 }
 
 
@@ -307,10 +311,7 @@ button.cv{
     bottom:0;
 
 }
-    /* #shadow{
-      text-shadow: 5px 4px 4px gray
-    }
-     */
+   
     div.preloader {
       position: fixed;
       height:100vh;
@@ -496,3 +497,234 @@ div.help{
 }
 
     
+ /* this is the blog pge css code*/
+ section.blog{
+    background-color: black;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: -60px;
+    margin-top: 180px;
+
+}
+h2.blog {
+    text-align: center;
+    font-size: 45px;
+    font-weight: bolder;
+    padding-top: 40px;
+}
+div.blog{
+    text-align: center;
+    padding-bottom: 15px;
+}
+div.picbox{
+    padding-top: 20px;
+    display: flex;
+}
+div.pic1{
+    
+    width: 20em;
+    margin-left: 90px;
+}
+div.pic20{
+     
+    width: 20em;
+    margin-left: 82px;
+  }
+div.pic21{
+  
+    width: 20em;
+    margin-left: 5%;
+}
+img.com1{
+    background-size: contain;
+    width: 20em;
+}
+img.com2{
+    background-size: contain;
+    width: 20em;
+    height: 20em;
+}
+img.com3{
+    background-size: contain;
+    width: 20em;
+    height: 20em;
+}
+h6.h6{
+    color: #ffbd39;
+    font-size: 15px;
+}
+p.head{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poppins';
+}
+p.text{
+    font-weight: lighter;
+    font-size: 15px;
+    font-family: 'Poppins';
+}
+div.bigpic{
+    
+    padding-top: 20px;
+    margin-top: 120px;
+}
+section.awards{
+    display: flex;
+    position: relative;
+    bottom: 39em;
+    left: -16em;
+    width: 50%;
+    background-color: transparent;
+}
+div.awards{
+    background-color: rgb(26, 26, 26);
+    width: 80px;
+    text-align: center;
+    padding: 10px 70px 10px 70px;
+     padding-bottom: 20px;
+    font-size: 17px;
+    margin-left: 355px;
+}
+h2.num{
+    background-color: rgb(26, 26, 26);
+    color: #ffbd39;
+    font-family:'Poppins';
+    font-size:30px;
+}
+div.Projects{
+    background-color: rgb(26, 26, 26);
+    width: 80px;
+    text-align: center;
+    padding: 10px 70px 10px 70px;
+    margin-left: 100px;
+     padding-bottom: 20px;
+    font-size: 17px;
+}
+div.Happy{
+    background-color: rgb(26, 26, 26);
+    width: 80px;
+    text-align: center;
+    padding: 10px 70px 10px 70px;
+    margin-left: 100px;
+     padding-bottom: 20px;
+    font-size: 17px;
+}
+div.Cups{
+    background-color: rgb(26, 26, 26);
+    width: 200px;
+    text-align: center;
+    padding: 10px 70px 10px 70px;
+    margin-left: 100px;
+    padding-bottom: 20px;
+    font-size: 17px;
+}
+img.bigpic{
+    z-index: -1;
+    width:78em;
+    height: 35em;
+    opacity: 0.7;
+    margin-left: 50px;
+    /* margin-left: 60px; */
+}
+div.freelancing{
+    
+    position: relative;
+    bottom: 33em;
+    text-align: center;
+    background-color: transparent;
+    line-height: 38px;
+}
+h1.freelancing{
+    font-size: 50px;
+    background-color: transparent;
+    text-shadow: 2px 2px 1px #ffbd39;
+}
+span.available{
+    color: #ffbd39;
+    background-color: transparent;
+    font-weight: bold;
+    text-shadow: 2px 2px 1px white;
+}
+p.txt{
+    background-color: transparent;
+    font-size: 18px;
+    text-shadow: 2px 2px 1px black;
+}
+input.hired{
+    padding: 20px;
+   outline: none;
+    border-radius: 60px;
+    background-color: #ffbd39;
+    color: black;
+    font-weight: bolder;
+    position: relative;
+    bottom: 37em;
+    left: 45em;
+    width: 180px;
+    outline: hidden;
+}
+body{
+    background-color: black
+}
+h1.skills{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    text-shadow: 20px 20px rgb(66, 64, 64)
+}
+
+p.shit{
+    text-align: center;
+    color: gray
+}
+p.photo{
+    color: white;
+    word-spacing: 500px;
+}
+progress{
+    border: none;
+    width: 600px;
+    height: 10px;
+    background: #444343;
+    color: #ffbd39;
+    border-radius: 20px
+
+}
+
+progress::-webkit-progress-value{
+    background:#ffbd39;
+     border-radius: 20px
+    
+}
+progress::-moz-progress-bar{
+    background: #ffbd39;
+     border-radius: 20px
+}
+.container10{
+margin-left: 50px;
+}
+.container20{
+    float: right;
+    margin-top: -70px;
+    margin-right: 50px
+}
+.container30{
+margin-left: 50px
+}
+.container40{
+ float: right;
+    margin-top: -70px;
+    margin-right: 50px
+}
+.container50{
+margin-left: 50px
+}
+.container60{
+ float: right;
+    margin-top: -70px;
+    margin-right: 50px
+}
+.myskills{
+  margin-top: 500px
+}
