@@ -692,3 +692,36 @@ margin-left: 50px
 .myskills{
   margin-top: 500px
 }
+.contact-me{
+  width:900px;
+  height:500px;
+  margin: auto;
+  position: relative;
+  text-align:center;
+  color: white;
+  padding-top: -40px;
+
+}
+#shadow-contact-me{
+  text-shadow: 25px 20px rgba(255,255,255,0.2);
+}
+.icon1{
+  position: absolute;
+  left:50px;
+  margin-top: 50px;
+}
+.icon2{
+  position: absolute;
+  left:310px;
+  margin-top: 50px;
+}
+.icon3{
+  position: absolute;
+  left:590px;
+  margin-top: 50px;
+}
+.icon4{
+  position: absolute;
+  left:850px;
+  margin-top: 50px;
+}
