@@ -464,7 +464,6 @@ progress{
   width: 510px;
   height: 15px;
   background:#444343
-  border-radius: 20px
 }
 progress{
   color: #ffbd39;
@@ -486,6 +485,10 @@ div.project1{
   width: 45%; 
   height: 120px;
   margin-left:100px
+}
+div.help{
+  width: 100%; 
+  height:120px;
 }
 
     
