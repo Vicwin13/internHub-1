@@ -247,10 +247,12 @@ height: 200px;
  float:left;
  margin-left: 100px;
  margin-top: 20px;
+ border-width: 400px;
+
  /* text-align: center */
 }
 .container2{
-    background-color:  rgb(24, 24, 24);
+    background-color: rgb(24, 24, 24);
     /* text-align: center; */
     margin-left: 700px;
     width: 560px;
