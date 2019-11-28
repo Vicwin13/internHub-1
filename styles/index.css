@@ -627,3 +627,43 @@ input.hired{
     width: 180px;
     outline: hidden;
 }
+.contact-me{
+  position: relative;
+  height:400px;
+  width:1100px;
+  margin: auto;
+  margin-top: -5px;
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  line-height:1px;
+  margin-bottom: 30px;
+  
+}
+#shadow-contact-me{
+  text-shadow:25px 15px rgba(255, 255, 255, 0.2)
+}
+.icon1{
+  position: absolute;
+  left:90px;
+  margin-top: 70px;
+  font-size: 30px;
+}
+.icon2{
+   position: absolute;
+  left:321px;
+  margin-top: 70px;
+  font-size: 30px;
+}
+.icon3{
+   position: absolute;
+  left:620px;
+  margin-top: 70px;
+  font-size: 30px;
+   }
+   .icon4{
+   position: absolute;
+  left:900px;
+  margin-top: 70px;
+  font-size: 30px;
+   }
