@@ -459,4 +459,33 @@ div.about{
   margin-right: auto;
   margin-top: 15px;
 }
+progress{
+  border: none;
+  width: 510px;
+  height: 15px;
+  background:#444343
+  border-radius: 20px
+}
+progress{
+  color: #ffbd39;
+  border-radius: 20px;
+  background:#444343
+}
+progress::-webkit-progress-value{
+  background:  #ffbd39;
+  border-radius: 20px;
+}
+progress::-moz-progress-bar{
+  background:  #ffbd39;
+  border-radius: 20px;
+}
+div.project2{
+  word-spacing: 300px;
+}
+div.project1{
+  width: 45%; 
+  height: 120px;
+  margin-left:100px
+}
+
     
