@@ -628,3 +628,67 @@ input.hired{
     width: 180px;
     outline: hidden;
 }
+ody{
+    background-color: black
+}
+h1.skills{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    text-shadow: 20px 20px rgb(66, 64, 64)
+}
+
+p.shit{
+    text-align: center;
+    color: gray
+}
+p.photo{
+    color: white;
+    word-spacing: 500px;
+}
+progress{
+    border: none;
+    width: 600px;
+    height: 10px;
+    background: #444343;
+    color: #ffbd39;
+    border-radius: 20px
+
+}
+
+progress::-webkit-progress-value{
+    background:#ffbd39;
+     border-radius: 20px
+    
+}
+progress::-moz-progress-bar{
+    background: #ffbd39;
+     border-radius: 20px
+}
+.container10{
+margin-left: 50px;
+}
+.container20{
+    float: right;
+    margin-top: -70px;
+    margin-right: 50px
+}
+.container30{
+margin-left: 50px
+}
+.container40{
+ float: right;
+    margin-top: -70px;
+    margin-right: 50px
+}
+.container50{
+margin-left: 50px
+}
+.container60{
+ float: right;
+    margin-top: -70px;
+    margin-right: 50px
+}
+.myskills{
+  margin-top: 500px
+}
