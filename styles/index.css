@@ -241,7 +241,7 @@ p.text1{
     margin-left: 10px;
     letter-spacing: 1px;
     font-size: 15px;
-    font-family: 'Times New Roman', Times, serif
+    /* font-family: 'Times New Roman', Times, serif; */
 }
 .about_container{
     /* text-align: center; */
@@ -253,22 +253,26 @@ p.text1{
   width:100%;
   position: relative;
   height: 400px;
+  
 }
 
 div.resume_row1 div.container1 {
   position: absolute;
   left:0;
-  margin-left:50px;
+  margin-left:110px;
   margin-top: 30px;
   height: 200px;
+  background-color: rgb(15, 15, 15);
+  
 }
 
 div.resume_row1 div.container2 {
   position: absolute;
   right:0;
-  margin-left:50px;
+  margin-right:110px;
   margin-top: 30px;
   height: 200px;
+  background-color: rgb(15, 15, 15)
 }
 
 
@@ -305,10 +309,7 @@ button.cv{
     bottom:0;
 
 }
-    /* #shadow{
-      text-shadow: 5px 4px 4px gray
-    }
-     */
+   
     div.preloader {
       position: fixed;
       height:100vh;
@@ -626,4 +627,101 @@ input.hired{
     left: 45em;
     width: 180px;
     outline: hidden;
+}
+body{
+    background-color: black
+}
+h1.skills{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    text-shadow: 20px 20px rgb(66, 64, 64)
+}
+
+p.shit{
+    text-align: center;
+    color: gray
+}
+p.photo{
+    color: white;
+    word-spacing: 500px;
+}
+progress{
+    border: none;
+    width: 600px;
+    height: 10px;
+    background: #444343;
+    color: #ffbd39;
+    border-radius: 20px
+
+}
+
+progress::-webkit-progress-value{
+    background:#ffbd39;
+     border-radius: 20px
+    
+}
+progress::-moz-progress-bar{
+    background: #ffbd39;
+     border-radius: 20px
+}
+.container10{
+margin-left: 50px;
+}
+.container20{
+    float: right;
+    margin-top: -70px;
+    margin-right: 50px
+}
+.container30{
+margin-left: 50px
+}
+.container40{
+ float: right;
+    margin-top: -70px;
+    margin-right: 50px
+}
+.container50{
+margin-left: 50px
+}
+.container60{
+ float: right;
+    margin-top: -70px;
+    margin-right: 50px
+}
+.myskills{
+  margin-top: 500px
+}
+.contact-me{
+  width:900px;
+  height:500px;
+  margin: auto;
+  position: relative;
+  text-align:center;
+  color: white;
+  padding-top: -40px;
+
+}
+#shadow-contact-me{
+  text-shadow: 25px 20px rgba(255,255,255,0.2);
+}
+.icon1{
+  position: absolute;
+  left:50px;
+  margin-top: 50px;
+}
+.icon2{
+  position: absolute;
+  left:310px;
+  margin-top: 50px;
+}
+.icon3{
+  position: absolute;
+  left:590px;
+  margin-top: 50px;
+}
+.icon4{
+  position: absolute;
+  left:850px;
+  margin-top: 50px;
 }
