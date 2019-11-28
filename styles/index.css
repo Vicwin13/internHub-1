@@ -628,43 +628,67 @@ input.hired{
     width: 180px;
     outline: hidden;
 }
-.contact-me{
-  position: relative;
-  height:400px;
-  width:1100px;
-  margin: auto;
-  margin-top: -5px;
-  color: white;
-  text-align: center;
-  font-size: 40px;
-  line-height:1px;
-  margin-bottom: 30px;
-  
+body{
+    background-color: black
 }
-#shadow-contact-me{
-  text-shadow:25px 15px rgba(255, 255, 255, 0.2)
+h1.skills{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    text-shadow: 20px 20px rgb(66, 64, 64)
 }
-.icon1{
-  position: absolute;
-  left:90px;
-  margin-top: 70px;
-  font-size: 30px;
+
+p.shit{
+    text-align: center;
+    color: gray
 }
-.icon2{
-   position: absolute;
-  left:321px;
-  margin-top: 70px;
-  font-size: 30px;
+p.photo{
+    color: white;
+    word-spacing: 500px;
 }
-.icon3{
-   position: absolute;
-  left:620px;
-  margin-top: 70px;
-  font-size: 30px;
-   }
-   .icon4{
-   position: absolute;
-  left:900px;
-  margin-top: 70px;
-  font-size: 30px;
-   }
+progress{
+    border: none;
+    width: 600px;
+    height: 10px;
+    background: #444343;
+    color: #ffbd39;
+    border-radius: 20px
+
+}
+
+progress::-webkit-progress-value{
+    background:#ffbd39;
+     border-radius: 20px
+    
+}
+progress::-moz-progress-bar{
+    background: #ffbd39;
+     border-radius: 20px
+}
+.container10{
+margin-left: 50px;
+}
+.container20{
+    float: right;
+    margin-top: -70px;
+    margin-right: 50px
+}
+.container30{
+margin-left: 50px
+}
+.container40{
+ float: right;
+    margin-top: -70px;
+    margin-right: 50px
+}
+.container50{
+margin-left: 50px
+}
+.container60{
+ float: right;
+    margin-top: -70px;
+    margin-right: 50px
+}
+.myskills{
+  margin-top: 500px
+}
