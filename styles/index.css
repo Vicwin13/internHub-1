@@ -478,9 +478,7 @@ progress::-moz-progress-bar{
   background:  #ffbd39;
   border-radius: 20px;
 }
-div.project2{
-  word-spacing: 300px;
-}
+
 div.project1{
   width: 45%; 
   height: 120px;
@@ -489,6 +487,10 @@ div.project1{
 div.help{
   width: 100%; 
   height:120px;
+
+}
+.photoshop{
+  word-spacing: 350px;
 }
 
     
