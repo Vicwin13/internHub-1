@@ -247,7 +247,7 @@ p.text1{
     /* text-align: center; */
     width: 100%;
     height: 940px;
-    margin-top:180px;
+    margin-top:-100px;
 }
 .resume_row1 {
   width:100%;
@@ -391,9 +391,11 @@ div.about{
     font-family: Arial, Helvetica, sans-serif;
     margin-right: 150px;
     color: rgb(155, 151, 151);
+    margin-top: -25px;
 }
 .con{
     margin-right: 250px;
+    margin-top: -70px;
 }
 .con h4{
     padding: 0px;
@@ -421,7 +423,7 @@ div.about{
     border:0.5px;
     background-color: orange;
     transition: 0.35s;
-    margin-top:70px;
+    margin-bottom:0px;
     border-radius: 50px;  
     text-decoration: none;
     /* display: inline-block; */
