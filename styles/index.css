@@ -241,7 +241,7 @@ p.text1{
     margin-left: 10px;
     letter-spacing: 1px;
     font-size: 15px;
-    font-family: 'Times New Roman', Times, serif
+    /* font-family: 'Times New Roman', Times, serif; */
 }
 .about_container{
     /* text-align: center; */
@@ -253,22 +253,26 @@ p.text1{
   width:100%;
   position: relative;
   height: 400px;
+  
 }
 
 div.resume_row1 div.container1 {
   position: absolute;
   left:0;
-  margin-left:50px;
+  margin-left:110px;
   margin-top: 30px;
   height: 200px;
+  background-color: rgb(15, 15, 15);
+  
 }
 
 div.resume_row1 div.container2 {
   position: absolute;
   right:0;
-  margin-left:50px;
+  margin-right:110px;
   margin-top: 30px;
   height: 200px;
+  background-color: rgb(15, 15, 15)
 }
 
 
@@ -305,10 +309,7 @@ button.cv{
     bottom:0;
 
 }
-    /* #shadow{
-      text-shadow: 5px 4px 4px gray
-    }
-     */
+   
     div.preloader {
       position: fixed;
       height:100vh;
