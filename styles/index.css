@@ -428,6 +428,37 @@ div.about{
     margin-left:0px;
 
 }
+.Projects{
+  color:white;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bolder;
+}
+
+.intro{
+  color:white;
+  text-align: center;
+}
+.webev0{
+  margin-left: 100px;
+}
+.webdev1{
+  margin-left: 100px;
+}
+.firstImages{
+  margin-left: auto;
+  margin-right: auto;
+}
+.secondImages{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+.thirdImages{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
     
  /* this is the blog pge css code*/
  section.blog{
