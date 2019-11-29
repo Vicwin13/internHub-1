@@ -97,8 +97,8 @@
       display: inline-block;
       text-align: right;
     }
-  div.navigation{
-    opacity: 0.5;
+  nav.navigation{
+    opacity: 0.8;
     background-color: #000;
     position: fixed;
     top:0;
@@ -775,4 +775,12 @@ margin-left: 50px
   position: absolute;
   left:850px;
   margin-top: 50px;
+}
+
+.nav-list li:active {
+  border-bottom: 2px solid #ffbd39;
+}
+
+ul.nav-list li{
+  transition: border-bottom .26s;
 }

@@ -21,28 +21,29 @@
 
     <div class="container">
         <!-- code for the navigation bar -->
-        <div class="navigation">
+        <nav class="navigation">
             <span class="name">
                 <b>superstar dev</b>
             </span>
-            <ul class="nav-list">
-                <li class="active">Home</li>
-                <li>About Us</li>
-                <li>Resume</li>
-                <li>Services</li>
-                <li>Skills</li>
-                <li>Projects</li>
-                <li>My blog</li>
-                <li>Contact Us</li>
+            <ul class="nav-list" id="navbar">
+                <li id="#home" class="active">Home</li>
+                <li id="about_us">About Us</li>
+                <li id="resume">Resume</li>
+                <li id="services">Services</li>
+                <li id="skills">Skills</li>
+                <li id="projects">Projects</li>
+                <li id="blog">My blog</li>
+                <li id="contact-us">Contact Us</li>
             </ul>
+            
 
             <div style="clear: both;"></div>
-        </div>
+            </nav>
 
         <!-- Code for the slider -->
         <div class="slider" style="width: 100%; height: 800px">
 
-            <div class="content">
+            <div class="content" id="home">
                 <h3 class="slide-content-hello">Hello!</h3>
                 <h1 class="slide-content-about">
 
@@ -67,7 +68,7 @@
 
 
         <!-- start about container -->
-        <div class="about_container">
+        <div class="about_container" id="about_us">
 
             <div class="img2">
                 <img src="http://pluspng.com/img-png/png-men-men-png-495.png" alt="">
@@ -113,7 +114,7 @@
 
 
         <!-- start resume container -->
-        <div class="resume">
+        <div class="resume" id="resume">
             <h1 class="resume1">
                 <strong>Resume</strong>
             </h1>
@@ -161,7 +162,7 @@
 
     </div>
 
-    <div class="myskills">
+    <div class="myskills" id="skills">
         <h1 class="skills">My Skills</h1>
         <p class="shit">Far far away, behind the word mountains, far from the countries Nigeria and Dubai</p>
         <div class="container10">
@@ -192,7 +193,7 @@
     <h1></h1>
 
 
-    <div class="custard" style=" width: 100%; height: 1000px; margin-left: 20px; margin-top: 450px">
+    <div class="custard" id="projects" style=" width: 100%; height: 1000px; margin-left: 20px; margin-top: 450px">
 
 
         
@@ -234,7 +235,7 @@
     <br>
     <br>
     <br>
-    <section class="blog">
+    <section class="blog" id="blog">
         <div class="blog">
             <h2 class="blog">Our Blog </h2>
             <p> A small river named Duden flos by their place and suppies it with the necessary regelialia. </p>
@@ -338,6 +339,12 @@
 
 
     <script src="./scripts/index.js"></script>
+    <script src="./vanillajs-scrollspy-master/dist/vanillajs-scrollspy.min.js"></script>
+    <script >
+        const navbar = document.querySelector('#navbar');
+    const scrollspy = new VanillaScrollspy(navbar, 1000, 'easeInOutQuint');
+scrollspy.init();
+    </script>
     <!-- project file -->
 </body>
 
